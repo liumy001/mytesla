@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("index")
 public class indexController {
 
+
+
+
+
     @RequestMapping("index")
     public String index() {
         return "index/index";
